@@ -1,0 +1,27 @@
+test_issue_one_microphone (test_start.StartTests.test_issue_one_microphone) ... ok
+test_allowed_quantities (test_student.StudentTests.test_allowed_quantities) ... ok
+test_double_return_rejected_unchanged (test_student.StudentTests.test_double_return_rejected_unchanged) ... ok
+test_failed_issue_does_not_corrupt_id (test_student.StudentTests.test_failed_issue_does_not_corrupt_id) ... ok
+test_ids_increment (test_student.StudentTests.test_ids_increment) ... ok
+test_initial_state (test_student.StudentTests.test_initial_state) ... ok
+test_invalid_quantities (test_student.StudentTests.test_invalid_quantities) ... ok
+test_issue_does_not_touch_other_items (test_student.StudentTests.test_issue_does_not_touch_other_items) ... ok
+test_issue_return_issue_again (test_student.StudentTests.test_issue_return_issue_again) ... ok
+test_more_than_available (test_student.StudentTests.test_more_than_available) ... ok
+test_r2_before_r3 (test_student.StudentTests.test_r2_before_r3) ... ok
+test_rejection_does_not_corrupt_id (test_student.StudentTests.test_rejection_does_not_corrupt_id) ... ok
+test_return_does_not_change_next_id (test_student.StudentTests.test_return_does_not_change_next_id) ... ok
+test_return_does_not_touch_other_items (test_student.StudentTests.test_return_does_not_touch_other_items) ... ok
+test_return_on_empty_state (test_student.StudentTests.test_return_on_empty_state) ... ok
+test_return_restores_stock (test_student.StudentTests.test_return_restores_stock) ... ok
+test_states_do_not_interfere (test_student.StudentTests.test_states_do_not_interfere) ... ok
+test_success_response (test_student.StudentTests.test_success_response) ... ok
+test_unknown_id_rejected_unchanged (test_student.StudentTests.test_unknown_id_rejected_unchanged) ... ok
+test_whitespace_trimmed (test_student.StudentTests.test_whitespace_trimmed) ... ok
+test_zero_stock (test_student.StudentTests.test_zero_stock) ... ok
+test_zero_tripod (test_student.StudentTests.test_zero_tripod) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.016s
+
+OK

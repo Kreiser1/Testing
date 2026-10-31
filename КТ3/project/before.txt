@@ -1,0 +1,55 @@
+test_issue_one_microphone (test_start.StartTests.test_issue_one_microphone) ... ok
+test_allowed_quantities (test_student.StudentTests.test_allowed_quantities) ...
+  test_allowed_quantities (test_student.StudentTests.test_allowed_quantities) (quantity_text='3') ... FAIL
+test_double_return_rejected_unchanged (test_student.StudentTests.test_double_return_rejected_unchanged) ... FAIL
+test_failed_issue_does_not_corrupt_id (test_student.StudentTests.test_failed_issue_does_not_corrupt_id) ... ok
+test_ids_increment (test_student.StudentTests.test_ids_increment) ... ok
+test_initial_state (test_student.StudentTests.test_initial_state) ... ok
+test_invalid_quantities (test_student.StudentTests.test_invalid_quantities) ... ok
+test_issue_does_not_touch_other_items (test_student.StudentTests.test_issue_does_not_touch_other_items) ... ok
+test_issue_return_issue_again (test_student.StudentTests.test_issue_return_issue_again) ... ok
+test_more_than_available (test_student.StudentTests.test_more_than_available) ... FAIL
+test_r2_before_r3 (test_student.StudentTests.test_r2_before_r3) ... ok
+test_rejection_does_not_corrupt_id (test_student.StudentTests.test_rejection_does_not_corrupt_id) ... ok
+test_return_does_not_change_next_id (test_student.StudentTests.test_return_does_not_change_next_id) ... ok
+test_return_does_not_touch_other_items (test_student.StudentTests.test_return_does_not_touch_other_items) ... ok
+test_return_on_empty_state (test_student.StudentTests.test_return_on_empty_state) ... ok
+test_return_restores_stock (test_student.StudentTests.test_return_restores_stock) ... ok
+test_states_do_not_interfere (test_student.StudentTests.test_states_do_not_interfere) ... ok
+test_success_response (test_student.StudentTests.test_success_response) ... ok
+test_unknown_id_rejected_unchanged (test_student.StudentTests.test_unknown_id_rejected_unchanged) ... ok
+test_whitespace_trimmed (test_student.StudentTests.test_whitespace_trimmed) ... ok
+test_zero_stock (test_student.StudentTests.test_zero_stock) ... ok
+test_zero_tripod (test_student.StudentTests.test_zero_tripod) ... ok
+
+======================================================================
+FAIL: test_allowed_quantities (test_student.StudentTests.test_allowed_quantities) (quantity_text='3')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kreiser\Desktop\Testing\КТ3\project\tests\test_student.py", line 40, in test_allowed_quantities
+    self.assertTrue(result["ok"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_double_return_rejected_unchanged (test_student.StudentTests.test_double_return_rejected_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kreiser\Desktop\Testing\КТ3\project\tests\test_student.py", line 169, in test_double_return_rejected_unchanged
+    self.assertFalse(result["ok"])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_more_than_available (test_student.StudentTests.test_more_than_available)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Kreiser\Desktop\Testing\КТ3\project\tests\test_student.py", line 79, in test_more_than_available
+    self.assertTrue(result["ok"])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.005s
+
+FAILED (failures=3)
