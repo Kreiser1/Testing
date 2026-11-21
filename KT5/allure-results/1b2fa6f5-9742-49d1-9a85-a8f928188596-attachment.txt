@@ -1,0 +1,1 @@
+https://petstore.swagger.io/v2/user/login?username=test_user_qa&password=password
